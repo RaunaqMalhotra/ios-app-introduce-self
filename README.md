@@ -8,7 +8,7 @@ Hello! Use this user friendly application on your iOS devices to create a simple
 
 Click on the link below to see how the app actually works!
 
-<!-- <img src="file:///private/var/folders/g0/ywb4mnyd3njbq0jbddgybs8c0000gn/T/1b6a2bba788d9625212d327f6751fb28/Kapture%202023-01-25%20at%2000.08.01.gif" width=200><br> -->
+<img src="http://g.recordit.co/WOyyhGX89S.gif" width=200><br>
 
 ### Required Features
 
