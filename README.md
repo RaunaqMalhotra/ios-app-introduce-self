@@ -6,8 +6,6 @@ Hello! Use this user friendly application on your iOS devices to create a simple
 
 ### App Walk-though
 
-Click on the link below to see how the app actually works!
-
 <img src="http://g.recordit.co/WOyyhGX89S.gif" width=200><br>
 
 ### Required Features
