@@ -31,7 +31,7 @@ class ViewController: UIViewController {
         if numberOfPetsLabel.text! == "0"{
             introduction += " I don’t own any pets."
         } else {
-            introduction += " I own \(numberOfPetsLabel.text!) dogs."
+            introduction += " I own \(numberOfPetsLabel.text!) pets."
         }
         
         introduction += " It is \(morePetsSwitch.isOn) that I want more pets."
@@ -43,6 +43,25 @@ class ViewController: UIViewController {
         alertController.addAction(action)
         
         present(alertController, animated: true, completion: nil)
+    }
+    
+    @IBAction func changeBackgroundPink(_ sender: UIButton) {
+        
+        let pastelPink = UIColor(hue: 0.9, saturation: 0.3, brightness: 0.9, alpha: 1.0)
+        self.view.backgroundColor = pastelPink
+
+    }
+    
+    @IBAction func changeBackgroundYellow(_ sender: UIButton) {
+        
+        let pastelBlue = UIColor(hue: 0.12, saturation: 0.9, brightness: 0.9, alpha: 1.0)
+        self.view.backgroundColor = pastelBlue
+        
+    }
+    
+    @IBAction func changeBackgroundDefault(_ sender: UIButton) {
+        
+        self.view.backgroundColor = UIColor.white
     }
     
     override func viewDidLoad() {
